@@ -1,0 +1,29 @@
+body{
+    background: white;
+    color: rgb(243, 147, 21);
+    text-align: center;
+    background-image: url("./image/mario-gogh-8xaMOOkKNsw-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.title{
+    text-align: center;
+    color: white;
+
+}
+
+.base_information img{
+    height: 500px;
+}
+
+ul {
+    list-style: none;
+}
+
+/* 個別に指定 */
+table {
+    margin-left: auto;
+    margin-right: auto;
+}

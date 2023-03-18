@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>ApexLegendsおすすめキャラ診断ツール</title>
+  <link rel="stylesheet" type="text/css" href="./style2.css">
+  <script ></script>
+
+  <style type="text/css">
+  </style>
+
+</head>
+
+<body>
+  <div>
+    <h1>ApexLegendsおすすめキャラ診断ツール</h1>
+  <hr>
+
+  <div id="q1div">
+  <!-- 選択肢とボタンのセットをdivで囲います -->
+  <h1>Q1.前でガンガン撃ち合うより，後ろから味方のカバーをするほうが好きだ</h1>
+    <p>
+      <select id="q1">
+        <option value="1">はい</option>
+        <option value="-1">いいえ</option>
+      </select>
+    </p>
+    <p><input type="button" value="次へ" id="shori1"></p>
+  </div>
+
+  <div id="q2div" style="display: none;"><!-- display:noneで隠しておく -->
+    <h1>Q2.チームの次の動きを決めて，味方に指示を出したい</h1>
+    <p>
+      <select id="q2">
+        <option value="1">はい</option>
+        <option value="-1">いいえ</option>
+      </select>
+    </p>
+
+    <p><input type="button" value="次へ" id="shori2"></p>
+  </div>
+
+  <div id="q3div" style="display: none;"><!-- display:noneで隠しておく -->
+    <h1>Q2.展開して射線を広げることで火力を出したい</h1>
+    <p>
+      <select id="q3">
+        <option value="1">はい</option>
+        <option value="-1">いいえ</option>
+      </select>
+    </p>
+    <p><input type="button" value="次へ" id="shori3"></p>
+  </div>
+
+  <div id="q4div" style="display: none;"><!-- display:noneで隠しておく -->
+    <h1>Q3.戦況を正確に把握して正しい立ち回りをしたい</h1>
+    <p>
+      <select id="q4">
+        <option value="1">はい</option>
+        <option value="-1">いいえ</option>
+      </select>
+    </p>
+    <p><input type="button" value="次へ" id="shori4"></p>
+  </div>
+
+  <div id="q5div" style="display: none;"><!-- display:noneで隠しておく -->
+    <h1>Q4.銃声が聞こえる方に向かわず，建物に籠っていたい</h1>
+    <p>
+      <select id="q5">
+        <option value="1">はい</option>
+        <option value="-1">いいえ</option>
+      </select>
+    </p>
+    <p><input type="button" value="次へ" id="shori5"></p>
+  </div>
+
+  <div id="q6div" style="display: none;"><!-- display:noneで隠しておく -->
+    <h1>Q5.キャラ独自のスキルで敵を攻撃したい</h1>
+    <p>
+      <select id="q6">
+        <option value="1">はい</option>
+        <option value="-1">いいえ</option>
+      </select>
+    </p>
+    <p><input type="button" value="次へ" id="shori6"></p>
+  </div>
+
+  <div id="q7div" style="display: none;"><!-- display:noneで隠しておく -->
+    <h1>Q6.勝ち負けよりふざけて楽しみたい</h1>
+    <p>
+      <select id="q7">
+        <option value="1">はい</option>
+        <option value="-1">いいえ</option>
+      </select>
+    </p>
+    <p><input type="button" value="次へ" id="shori7"></p>
+  </div>
+
+  
+
+  <div id="a1div" style="display: none;"><!-- display:noneで隠しておく -->
+    <h1>あなたのおすすめレジェンドはレイス，アッシュ</h1>
+    <img src="image/Wraith.jpg"height="330"width="200"alt="画像です">
+    <img src="image/Ash.jpg"height="330"width="200"alt="画像です">
+    
+    
+    
+  </div>
+
+  <div id="a2div" style="display: none;"><!-- display:noneで隠しておく -->
+    <h1>あなたのおすすめレジェンドはホライゾン，バンガロール</h1>
+    <img src="image/Horizon.jpg"height="330"width="200"alt="画像です">
+    <img src="image/Bangalore.jpg"height="330"width="200"alt="画像です">
+    
+  </div>
+
+  <div id="a3div" style="display: none;"><!-- display:noneで隠しておく -->
+    <h1>あなたのおすすめレジェンドはパスファインダー，オクタン，ヴァルキリー</h1>
+    <img src="image/Pathfinder.jpg"height="330"width="200"alt="画像です">
+    <img src="image/Octane.jpg"height="330"width="200"alt="画像です">
+    <img src="image/Valkyrie.jpg"height="330"width="200"alt="画像です">
+
+  </div>
+
+  <div id="a4div" style="display: none;"><!-- display:noneで隠しておく -->
+    <h1>あなたのおすすめレジェンドはブラッドハウンド，シア，クリプト</h1>
+    <img src="image/Bloodhound.jpg"height="330"width="200"alt="画像です">
+    <img src="image/Seer.jpg"height="330"width="200"alt="画像です">
+    <img src="image/Crypto.jpg"height="330"width="200"alt="画像です">
+    
+  </div>
+
+  <div id="a5div" style="display: none;"><!-- display:noneで隠しておく -->
+    <h1>あなたのおすすめレジェンドはワットソン，コースティック</h1>
+    <img src="image/Wattson.jpg"height="330"width="200"alt="画像です">
+    <img src="image/Coustic.jpg"height="330"width="200"alt="画像です">
+        
+  </div>
+
+  <div id="a6div" style="display: none;"><!-- display:noneで隠しておく -->
+    <h1>あなたのおすすめレジェンドはレブナント，ヒューズ，ランパート，マッドマギー</h1>
+    <img src="image/Revenant.jpg"height="330"width="200"alt="画像です">
+    <img src="image/Fuse.jpg"height="330"width="200"alt="画像です">
+    <img src="image/Rampart.jpg"height="330"width="200"alt="画像です">
+    <img src="image/MadMaggie.jpg"height="330"width="200"alt="画像です">
+        
+  </div>
+
+  <div id="a7div" style="display: none;"><!-- display:noneで隠しておく -->
+    <h1>あなたのおすすめレジェンドはミラージュ</h1>
+    <img src="image/Mirage.jpg"height="330"width="200"alt="画像です">
+    
+  </div>
+
+  <div id="a8div" style="display: none;"><!-- display:noneで隠しておく -->
+    <h2>あなたのおすすめレジェンドはジブラルタル，ローバ，ライフライン</h2>
+    <img src="image/Gibraltar.jpg"height="330"width="200"alt="画像です">
+    <img src="image/Loba.jpg"height="330"width="200"alt="画像です">
+    <img src="image/Lifeline.jpg"height="330"width="200"alt="画像です">
+    
+  </div>
+
+  <script>
+      let q1div_html = document.getElementById("q1div");
+      let q2div_html = document.getElementById("q2div");
+      let q3div_html = document.getElementById("q3div");
+      let q4div_html = document.getElementById("q4div");
+      let q5div_html = document.getElementById("q5div");
+      let q6div_html = document.getElementById("q6div");
+      let q7div_html = document.getElementById("q7div");
+      
+      let a1div_html = document.getElementById("a1div");
+      let a2div_html = document.getElementById("a2div");
+      let a3div_html = document.getElementById("a3div");
+      let a4div_html = document.getElementById("a4div");
+      let a5div_html = document.getElementById("a5div");
+      let a6div_html = document.getElementById("a6div");
+      let a7div_html = document.getElementById("a7div");
+      let a8div_html = document.getElementById("a8div");
+
+      let q1_html = document.getElementById("q1");
+      let q2_html = document.getElementById("q2");
+      let q3_html = document.getElementById("q3");
+      let q4_html = document.getElementById("q4");
+      let q5_html = document.getElementById("q5");
+      let q6_html = document.getElementById("q6");
+      let q7_html = document.getElementById("q7");
+
+      let shori1_html = document.getElementById("shori1");
+      let shori2_html = document.getElementById("shori2");
+      let shori3_html = document.getElementById("shori3");
+      let shori4_html = document.getElementById("shori4");
+      let shori5_html = document.getElementById("shori5");
+      let shori6_html = document.getElementById("shori6");
+      let shori7_html = document.getElementById("shori7");
+
+      //1問目のボタンが押されたら
+      shori1_html.onclick = function shorinaiyou1() { 
+        q1 = Number(q1_html.value); //回答値を得る
+
+        if(q1 == 1){
+          q1div_html.style.display = "none"; //1問目のCSSにdisplay:noneを設定し隠す
+          q3div_html.style.display = "block"; //2問目のCSSにdisplay:blockを設定し表示する
+
+        }else if(q1 == -1){
+          q1div_html.style.display = "none";  //1問目のCSSにdisplay:noneを設定し隠す
+          q2div_html.style.display = "block";  //3問目のCSSにdisplay:blockを設定し表示する
+        }
+      }
+
+      shori2_html.onclick = function shorinaiyou2() {
+        q2 = Number(q2_html.value);
+
+        if(q2 == 1){
+          q2div_html.style.display = "none"; 
+          a1div_html.style.display = "block"; 
+
+        }else if(q2 == -1){
+          q2div_html.style.display = "none"; 
+          a2div_html.style.display = "block"; 
+        }
+
+        
+      }
+
+      shori3_html.onclick = function shorinaiyou3() {
+        q3 = Number(q3_html.value); 
+
+        if(q3 == 1){
+          q3div_html.style.display = "none"; 
+          a3div_html.style.display = "block"; 
+
+        }else if(q3 == -1){
+          q3div_html.style.display = "none"; 
+          q4div_html.style.display = "block"; 
+        }
+      }
+
+      shori4_html.onclick = function shorinaiyou4() {
+        q4 = Number(q4_html.value); 
+
+        if(q4 == 1){
+          q4div_html.style.display = "none"; 
+          a4div_html.style.display = "block"; 
+
+        }else if(q4 == -1){
+          q4div_html.style.display = "none"; 
+          q5div_html.style.display = "block"; 
+        }
+      }
+
+      shori5_html.onclick = function shorinaiyou5() {
+        q5 = Number(q5_html.value); 
+
+        if(q5 == 1){
+          q5div_html.style.display = "none"; 
+          a5div_html.style.display = "block"; 
+
+        }else if(q5 == -1){
+          q5div_html.style.display = "none"; 
+          q6div_html.style.display = "block"; 
+        }
+      }
+
+      shori6_html.onclick = function shorinaiyou6() {
+        q6 = Number(q6_html.value); 
+
+        if(q6 == 1){
+          q6div_html.style.display = "none"; 
+          a6div_html.style.display = "block"; 
+
+        }else if(q6 == -1){
+          q6div_html.style.display = "none"; 
+          q7div_html.style.display = "block"; 
+        }
+      }
+
+      shori7_html.onclick = function shorinaiyou7() {
+        q7 = Number(q7_html.value); 
+
+        if(q7 == 1){
+          q7div_html.style.display = "none"; 
+          a7div_html.style.display = "block"; 
+
+        }else if(q7 == -1){
+          q7div_html.style.display = "none"; 
+          a8div_html.style.display = "block"; 
+        }
+      }
+
+      
+
+  </script>
+</div>
+</body>
+</html>
+
